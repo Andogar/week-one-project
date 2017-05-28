@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%
+}
+
+body {
+  background-color: #F2F1E8;
+  margin: 0;
+  color: #131511;
+}
+
+nav {
+  background-color: #fff;
+  height: 70px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  box-shadow: 2px 1px 2px grey;
+  z-index: 4;
+}
+
+a:link, .inactive {
+  color: #353123;
+}
+
+a:hover {
+  color: #CD5D67;
+}
+
+a:active {
+  color: #968772;
+}
+
+.active {
+  color: #968772;
+}
+
+
+nav > a {
+   position: relative;
+   top: 25px;
+   padding: 30px;
+   font-size: 19px;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.header-img {
+  width: 40px;
+  height: 45px;
+  background-image: url("images/optimized/bent-creek-logo.png");
+  background-size: cover;
+  position: fixed;
+  top: 13px;
+  left: 25px;
+}
+
+header > h1, header > h3 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+}
+
+header > h1 {
+  margin-bottom: 0;
+  font-size: 70px;
+}
+
+header > h3 {
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.home-header , .about-header {
+  margin-top: 120px;
+}
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 1280px;
+}
+
+.item {
+  position: relative;
+  margin: 5px;
+}
+
+#prod-1-item, #prod-2-item, #prod-3-item {
+  height: 300px;
+}
+#prod-4-item, #prod-5-item, #prod-6-item, #prod-7-item {
+  height: 200px;
+}
+
+#prod-1-item {
+  width: 55.8%;
+}
+
+#prod-2-item {
+  width: 20%;
+}
+
+#prod-3-item {
+  width: 20%;
+}
+
+#prod-4-item {
+  width: 20%;
+}
+
+#prod-5-item {
+  width: 20%;
+}
+
+#prod-6-item {
+  width: 35%;
+}
+
+#prod-7-item {
+  width: 20%;
+}
+
+
+.item-phrase {
+  position: absolute;;
+  color: #F2F1E8;
+  bottom: -5px;
+  background-color: #2B2F26;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  padding: 15px
+}
+
+#prod-1-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/optimized/product-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#prod-2-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/optimized/product-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#prod-3-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/optimized/product-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#prod-4-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/optimized/product-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#prod-5-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/optimized/product-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#prod-6-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/optimized/product-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#prod-7-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/optimized/product-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-main {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Merriweather', serif;
+}
+
+.intro {
+  margin-top: 50px;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+#birdhouse {
+  width: 160px;
+  height: 120px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.quote-1 {
+  border-left: 2px solid #92836D;
+  padding-left: 30px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.history {
+  margin-top: 40px;
+}
+
+.history > h3 {
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.history > p {
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.room-to-grow {
+  background-image: url("images/optimized/background-3.jpg");
+  height: 320px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+.room-to-grow > h1 {
+  padding-top: 120px;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  font-size: 60px;
+}
+
+.facilities-flex {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+#about-main-2 {
+  margin-top: 20px;
+}
+
+.facilities {
+  width: 780px;
+}
+
+.facilities > p {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.storage {
+  width: 180px;
+  height: 400px;
+  padding-top: 65px;
+}
+
+table, td, tr, th {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+table {
+  width: 780px;
+  margin-bottom: 55px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+th {
+  padding: 20px 0px 20px 0px;
+}
+
+td {
+  padding: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #F2EADC;
+}
+
+.monthly-plans > h3 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+
+#newsletter-main {
+  background-image: url("images/optimized/background-2.jpg");
+  min-height: calc(100vh - 100px);
+  max-height: 100%;
+  min-width: 100vh;
+  position: relative;
+}
+
+.card > h3 {
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.card > h1, .card > h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.card > h1 {
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.card {
+  background-color: #fff;
+  width: 620px;
+  height: 380px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 23px;
+  padding-top: 30px;
+}
+
+#nameInput, #emailInput {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-bottom: 2px solid #968772;
+  padding-top: 15px;
+  color: #7E7B79;
+}
+
+#nameInput:focus, #emailInput:focus {
+  outline: none;
+  border: none;
+  border-bottom: 4px solid #967343
+}
+
+#signupButton {
+  width: 130px;
+  height: 60px;
+  background-color: #968772;
+  color: #F2F1E8;
+  border: none;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+#signupButton:focus {
+  outline: none;
+}
+
+#signupButton:hover {
+  background-color: #967343;
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: #2B2F26;
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  color: #F2F1E8;
+  font-weight: normal;
+}
+
+footer > span {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
